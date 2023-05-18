@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/* width */
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+    background: hsl(233, 14%, 35%)
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+    background: hsl(235, 24%, 19%)
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+    background: hsl(233, 14%, 35%)
+}
+
+
+/* Navbar css */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 16px 20px;
+    font-size: 21px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right span {
+    margin-right: 10px;
+}
+
+.navbar-right img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+/* Form Css */
+
+
+.form {
+    max-width: 500px;
+    padding: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.form-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button-cancel {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #d7d8d7;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+}
+
+.form-button:hover {
+    background-color: #45a049;
+}
+
+
+/* product-list.css */
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px 0px 3px rgb(173, 164, 164);
+}
+
+.product_left {
+    display: flex;
+    gap: 20px;
+}
+
+.product_left .product-name {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.product_left .product-price {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.product_left img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.product .product_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.product .product_right>div {
+    display: flex;
+    gap: 20px;
+}
+
+
+.product .product_right>div button {
+    padding: 10px 20px;
+}
+
+
+/* confirm-modal */
+
+.confirm-modal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(54, 54, 54, 0.692);
+    /* Black w/opacity/see-through */
+}
+
+.confirm-modal .modal-box>h4 {
+    font-weight: 400;
+    color: #fff;
+    font-size: 33px;
+}
+
+.confirm-modal .modal-box>.modal-btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.confirm-modal .modal-box>.modal-btns button {
+    padding: 8px 30px;
+}
