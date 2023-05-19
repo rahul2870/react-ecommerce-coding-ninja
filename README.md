@@ -64,7 +64,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Demo
 
-Check out the live demo of the application at : website.
+Check out the live demo of the application at : [https://github.com/rahul2870/react-ecommerce-coding-ninja](https://github.com/rahul2870/react-ecommerce-coding-ninja)
 
 ## Authors
 
